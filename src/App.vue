@@ -2,6 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
+      <router-link to="/destinations">Destinations</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
@@ -30,3 +31,7 @@
   color: #42b983;
 }
 </style>
+<script>export default {
+  components: {}
+}
+</script>
